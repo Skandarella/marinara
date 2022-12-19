@@ -1,3 +1,146 @@
+--- seashells
+
+	minetest.register_decoration({
+		deco_type = "simple",
+		place_on = {"default:sand"},
+		sidelen = 16,
+		noise_params = {
+			offset = -0,
+			scale = 0.01,
+			spread = {x = 100, y = 100, z = 100},
+			seed = 3789,
+			octaves = 4,
+			persist = 0.8,
+		},
+    place_offset_y=-1,
+    flags = "place_center_x,place_center_z,force_placement",
+		biomes = {"savanna_shore", "savanna_ocean", "coniferous_forest_ocean", "sandstone_desert_ocean", "grassland_ocean",},
+		y_max = 2,
+		y_min = 0,
+		decoration = "marinara:sand_with_seashells"
+	})
+
+	minetest.register_decoration({
+		deco_type = "simple",
+		place_on = {"default:sand"},
+		sidelen = 16,
+		noise_params = {
+			offset = -0,
+			scale = 0.01,
+			spread = {x = 100, y = 100, z = 100},
+			seed = 3789,
+			octaves = 4,
+			persist = 0.8,
+		},
+    place_offset_y=-1,
+    flags = "place_center_x,place_center_z,force_placement",
+		biomes = {"savanna_shore", "savanna_ocean", "coniferous_forest_ocean", "sandstone_desert_ocean", "grassland_ocean",},
+		y_max = 2,
+		y_min = 0,
+		decoration = "marinara:sand_with_seashells_broken"
+	})
+
+	minetest.register_decoration({
+		deco_type = "simple",
+		place_on = {"default:sand"},
+		sidelen = 16,
+		noise_params = {
+			offset = -0,
+			scale = 0.01,
+			spread = {x = 100, y = 100, z = 100},
+			seed = 3789,
+			octaves = 4,
+			persist = 0.8,
+		},
+    place_offset_y=-1,
+    flags = "place_center_x,place_center_z,force_placement",
+		biomes = {"savanna_shore", "savanna_ocean", "coniferous_forest_ocean", "sandstone_desert_ocean", "grassland_ocean",},
+		y_max = 2,
+		y_min = 0,
+		decoration = "marinara:sand_with_seashells_white"
+	})
+
+	minetest.register_decoration({
+		deco_type = "simple",
+		place_on = {"default:sand"},
+		sidelen = 16,
+		noise_params = {
+			offset = -0,
+			scale = 0.01,
+			spread = {x = 100, y = 100, z = 100},
+			seed = 3789,
+			octaves = 4,
+			persist = 0.8,
+		},
+    place_offset_y=-1,
+    flags = "place_center_x,place_center_z,force_placement",
+		biomes = {"savanna_shore", "savanna_ocean", "coniferous_forest_ocean", "sandstone_desert_ocean", "grassland_ocean",},
+		y_max = 2,
+		y_min = 0,
+		decoration = "marinara:sand_with_seashells_yellow"
+	})
+
+	minetest.register_decoration({
+		deco_type = "simple",
+		place_on = {"default:sand"},
+		sidelen = 16,
+		noise_params = {
+			offset = -0,
+			scale = 0.01,
+			spread = {x = 100, y = 100, z = 100},
+			seed = 3789,
+			octaves = 4,
+			persist = 0.8,
+		},
+    place_offset_y=-1,
+    flags = "place_center_x,place_center_z,force_placement",
+		biomes = {"savanna_shore", "savanna_ocean", "coniferous_forest_ocean", "sandstone_desert_ocean", "grassland_ocean",},
+		y_max = 2,
+		y_min = 0,
+		decoration = "marinara:sand_with_seashells_brown"
+	})
+
+	minetest.register_decoration({
+		deco_type = "simple",
+		place_on = {"default:sand"},
+		sidelen = 16,
+		noise_params = {
+			offset = -0,
+			scale = 0.01,
+			spread = {x = 100, y = 100, z = 100},
+			seed = 3789,
+			octaves = 4,
+			persist = 0.8,
+		},
+    place_offset_y=-1,
+    flags = "place_center_x,place_center_z,force_placement",
+		biomes = {"savanna_shore", "savanna_ocean", "coniferous_forest_ocean", "sandstone_desert_ocean", "grassland_ocean",},
+		y_max = 2,
+		y_min = 0,
+		decoration = "marinara:sand_with_seashells_pink"
+	})
+
+	minetest.register_decoration({
+		deco_type = "simple",
+		place_on = {"default:sand"},
+		sidelen = 16,
+		noise_params = {
+			offset = -0,
+			scale = 0.01,
+			spread = {x = 100, y = 100, z = 100},
+			seed = 3789,
+			octaves = 4,
+			persist = 0.8,
+		},
+    place_offset_y=-1,
+    flags = "place_center_x,place_center_z,force_placement",
+		biomes = {"savanna_shore", "savanna_ocean", "coniferous_forest_ocean", "sandstone_desert_ocean", "grassland_ocean",},
+		y_max = 2,
+		y_min = 0,
+		decoration = "marinara:sand_with_seashells_orange"
+	})
+
+
 --- wrecks
 
 minetest.register_decoration({

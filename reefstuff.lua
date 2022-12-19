@@ -473,8 +473,8 @@ special_tiles = {{name = "marinara_oisterbank.png", tileable_vertical = true}},
 	node_placement_prediction = "",
         drop = "marinara:raw_oisters",
 	sounds = default.node_sound_stone_defaults({
-		dig = {name = "default_dig_snappy", gain = 0.2},
-		dug = {name = "default_grass_footstep", gain = 0.25},
+		dig = {name = "default_dig_choppy", gain = 0.2},
+		dug = {name = "default_dig_choppy", gain = 0.25},
 	}),
 
 	on_place = coral_on_place,
