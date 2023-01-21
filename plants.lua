@@ -1,5 +1,7 @@
+local S = minetest.get_translator("marinara")
+
 minetest.register_node("marinara:reed_root", {
-	description = ("Reed Root"),
+	description = S("Reed Root"),
 	drawtype = "plantlike_rooted",
         visual_scale = 3.5,
 	waving = 1,
@@ -31,7 +33,7 @@ minetest.register_node("marinara:reed_root", {
 })
 
 minetest.register_node("marinara:reed", {
-	description = ("Reed"),
+	description = S("Reed"),
 	drawtype = "plantlike",
 	waving = 1,
         visual_scale = 3.5,
@@ -127,7 +129,7 @@ minetest.register_node("marinara:sand_with_kelp", {
 })
 
 minetest.register_node("marinara:sand_with_seagrass2", {
-	description = ("Long Seagrass"),
+	description = S("Long Seagrass"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
 	tiles = {"default_sand.png"},
@@ -199,7 +201,7 @@ minetest.register_node("marinara:sand_with_seagrass2", {
 })
 
 minetest.register_node("marinara:sand_with_seagrass", {
-	description = ("Seagrass"),
+	description = S("Seagrass"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
 	tiles = {"default_sand.png"},
@@ -271,7 +273,7 @@ minetest.register_node("marinara:sand_with_seagrass", {
 })
 
 minetest.register_node("marinara:sand_with_alage", {
-	description = ("Alage"),
+	description = S("Alage"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
 	tiles = {"default_sand.png"},
@@ -343,7 +345,7 @@ minetest.register_node("marinara:sand_with_alage", {
 })
 
 minetest.register_node("marinara:coastrock_with_brownalage", {
-	description = ("Brown Alage"),
+	description = S("Brown Alage"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
 	tiles = {"marinara_coastrock.png"},

@@ -1,15 +1,17 @@
+local S = minetest.get_translator("marinara")
+
   stairs.register_stair_and_slab(
       "marinara_reed_node",
       "marinara:reed_bundle",
       {snappy = 3, oddly_breakable_by_hand = 0, flammable = 0},
       {"marinara_reed_node_top.png", "marinara_reed_node.png", "marinara_reed_node_top.png"},
-      ("Reed Node Stair"),
-      ("Reed Node Slab"),
+      S("Reed Node Stair"),
+      S("Reed Node Slab"),
       default.node_sound_leaves_defaults()
     )
 
 minetest.register_node("marinara:reed_bundle", {
-	description = ("Reed Node"),
+	description = S("Reed Node"),
 	tiles = {
 		"marinara_reed_node.png",
 		"marinara_reed_node.png",
@@ -24,7 +26,7 @@ minetest.register_craft({
 	output = "marinara:reed_bundle",
 	type = "shapeless",
 	recipe = 
-		{"marinara:reed", "marinara:reed", "marinara:reed", "marinara:reed"}
+		{"marinara:reed", "marinara:reed"}
 
 })
 
@@ -32,12 +34,12 @@ minetest.register_craft({
 	output = "marinara:reed_bundle",
 	type = "shapeless",
 	recipe = 
-		{"marinara:reed_root", "marinara:reed_root", "marinara:reed_root", "marinara:reed_root"}
+		{"marinara:reed_root", "marinara:reed_root"}
 
 })
 
 minetest.register_node("marinara:bountychest", {
-	description = ("Bounty Chest"),
+	description = S("Bounty Chest"),
 tiles = {
 		"marinara_bootynode_top.png",
 		"marinara_bootynode_bottom.png",
@@ -52,7 +54,7 @@ groups = {wood = 1, choppy = 2, flammable = 2},
 })
 
 minetest.register_node("marinara:bountychest2", {
-	description = ("Bounty Chest"),
+	description = S("Bounty Chest"),
 tiles = {
 		"marinara_bootynode_top.png",
 		"marinara_bootynode_bottom.png",
@@ -67,7 +69,7 @@ groups = {wood = 1, choppy = 2, flammable = 2},
 })
 
 minetest.register_node("marinara:bountychest3", {
-	description = ("Bounty Chest"),
+	description = S("Bounty Chest"),
 tiles = {
 		"marinara_bootynode_top.png",
 		"marinara_bootynode_bottom.png",
@@ -82,7 +84,7 @@ groups = {wood = 1, choppy = 2, flammable = 2},
 })
 
 minetest.register_node("marinara:bountychest4", {
-	description = ("Bounty Chest"),
+	description = S("Bounty Chest"),
 tiles = {
 		"marinara_bootynode_top.png",
 		"marinara_bootynode_bottom.png",
@@ -97,7 +99,7 @@ groups = {wood = 1, choppy = 2, flammable = 2},
 })
 
 minetest.register_node("marinara:bountychest5", {
-	description = ("Bounty Chest"),
+	description = S("Bounty Chest"),
 tiles = {
 		"marinara_bootynode_top.png",
 		"marinara_bootynode_bottom.png",
@@ -112,7 +114,7 @@ groups = {wood = 1, choppy = 2, flammable = 2},
 })
 
 minetest.register_node("marinara:bountychest6", {
-	description = ("Bounty Chest"),
+	description = S("Bounty Chest"),
 tiles = {
 		"marinara_bootynode_top.png",
 		"marinara_bootynode_bottom.png",
@@ -142,7 +144,7 @@ groups = {wood = 1, choppy = 2, flammable = 2},
 })
 
 minetest.register_node("marinara:bountychest8", {
-	description = ("Bounty Chest"),
+	description = S("Bounty Chest"),
 tiles = {
 		"marinara_bootynode_top.png",
 		"marinara_bootynode_bottom.png",
@@ -157,7 +159,7 @@ groups = {wood = 1, choppy = 2, flammable = 2},
 })
 
 minetest.register_node("marinara:bountychest9", {
-	description = ("Bounty Chest"),
+	description = S("Bounty Chest"),
 tiles = {
 		"marinara_bootynode_top.png",
 		"marinara_bootynode_bottom.png",
@@ -172,7 +174,7 @@ groups = {wood = 1, choppy = 2, flammable = 2},
 })
 
 minetest.register_node("marinara:bountychest10", {
-	description = ("Bounty Chest"),
+	description = S("Bounty Chest"),
 tiles = {
 		"marinara_bootynode_top.png",
 		"marinara_bootynode_bottom.png",
@@ -187,7 +189,7 @@ groups = {wood = 1, choppy = 2, flammable = 2},
 })
 
 minetest.register_node("marinara:bountychest11", {
-	description = ("Bounty Chest"),
+	description = S("Bounty Chest"),
 tiles = {
 		"marinara_bootynode_top.png",
 		"marinara_bootynode_bottom.png",
@@ -202,7 +204,7 @@ groups = {wood = 1, choppy = 2, flammable = 2},
 })
 
 minetest.register_node("marinara:bountychest12", {
-	description = ("Bounty Chest"),
+	description = S("Bounty Chest"),
 tiles = {
 		"marinara_bootynode_top.png",
 		"marinara_bootynode_bottom.png",
@@ -217,7 +219,7 @@ groups = {wood = 1, choppy = 2, flammable = 2},
 })
 
 minetest.register_node("marinara:sand_with_seashells", {
-	description = ("Sand with Seashells"),
+	description = S("Sand with Seashells"),
 	tiles = {"default_sand.png^marinara_seashells.png"},
 	groups = {crumbly = 3, falling_node = 1, sand = 1},
 	drop = "marinara:seashells",
@@ -233,12 +235,12 @@ minetest.register_craft({
 })
 
 minetest.register_craftitem("marinara:seashells", {
-	description = ("Seashells"),
+	description = S("Seashells"),
 	inventory_image = "marinara_seashells.png",
 })
 
 minetest.register_node("marinara:seashellmobile", {
-	description = ("Seashell Mobile"),
+	description = S("Seashell Mobile"),
 	drawtype = "plantlike",
 	waving = 0,
 	tiles = {"marinara_seashellmobile.png"},
@@ -260,7 +262,7 @@ minetest.register_node("marinara:seashellmobile", {
 	end,
 })
 
-walls.register(":marinara:coastbrick_wall", "Coast Brick Wall", "marinara_coastbrick.png",
+walls.register(":marinara:coastbrick_wall", S"Coast Brick Wall", "marinara_coastbrick.png",
 		"marinara:coastbrick_wall", default.node_sound_stone_defaults())
 
     stairs.register_stair_and_slab(
@@ -268,13 +270,13 @@ walls.register(":marinara:coastbrick_wall", "Coast Brick Wall", "marinara_coastb
       "marinara:coastbricks",
       {cracky = 1, oddly_breakable_by_hand = 0, flammable = 0},
       {"marinara_coastbrick.png"},
-      ("Coast Rock Brick Stair"),
-      ("Coast Rock Brick Slab"),
+      S("Coast Rock Brick Stair"),
+      S("Coast Rock Brick Slab"),
       default.node_sound_stone_defaults()
     )
 
 minetest.register_node("marinara:coastbricks", {
-	description = ("Coast Bricks"),
+	description = S("Coast Bricks"),
 	tiles = {"marinara_coastbrick.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 2},
@@ -285,7 +287,7 @@ minetest.register_craft({
 	output = "marinara:coastbricks",
 	type = "shapeless",
 	recipe = 
-		{"marinara:coastrock", "marinara:coastrock", "marinara:coastrock", "marinara:coastrock"}
+		{"marinara:coastrock", "marinara:coastrock"}
 
 	
 })
@@ -294,12 +296,12 @@ minetest.register_craft({
 	output = "marinara:coastbrick_wall",
 	type = "shapeless",
 	recipe = 
-		{"marinara:coastbricks", "marinara:coastbricks", "marinara:coastbricks", "marinara:coastbricks", "marinara:coastbricks", "marinara:coastbricks"}
+		{"marinara:coastbricks"}
 
 	
 })
 
-walls.register(":marinara:coastbrick_wall_alage", "Coast Brick Wall with Alage", "marinara_coastbrick_alage.png",
+walls.register(":marinara:coastbrick_wall_alage", S"Coast Brick Wall with Alage", "marinara_coastbrick_alage.png",
 		"marinara:coastbrick_wall_alage", default.node_sound_stone_defaults())
 
     stairs.register_stair_and_slab(
@@ -307,13 +309,13 @@ walls.register(":marinara:coastbrick_wall_alage", "Coast Brick Wall with Alage",
       "marinara:coastbricks_alage",
       {cracky = 1, oddly_breakable_by_hand = 0, flammable = 0},
       {"marinara_coastbrick_alage.png"},
-      ("Coast Rock Brick Stair with Alage"),
-      ("Coast Rock Brick Slab with Alage"),
+     S("Coast Rock Brick Stair with Alage"),
+      S("Coast Rock Brick Slab with Alage"),
       default.node_sound_stone_defaults()
     )
 
 minetest.register_node("marinara:coastbricks_alage", {
-	description = ("Coast Bricks with Alage"),
+	description = S("Coast Bricks with Alage"),
 	tiles = {"marinara_coastbrick_alage.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 2},
@@ -324,7 +326,7 @@ minetest.register_craft({
 	output = "marinara:coastbricks_alage",
 	type = "shapeless",
 	recipe = 
-		{"marinara:coastrock_alage", "marinara:coastrock_alage", "marinara:coastrock_alage", "marinara:coastrock_alage"}
+		{"marinara:coastrock_alage", "marinara:coastrock_alage"}
 
 	
 })
@@ -333,13 +335,13 @@ minetest.register_craft({
 	output = "marinara:coastbrick_wall_alage",
 	type = "shapeless",
 	recipe = 
-		{"marinara:coastbricks_alage", "marinara:coastbricks_alage", "marinara:coastbricks_alage", "marinara:coastbricks_alage", "marinara:coastbricks_alage", "marinara:coastbricks_alage"}
+		{"marinara:coastbricks_alage"}
 
 	
 })
 
 minetest.register_node("marinara:sand_with_seashells_orange", {
-	description = ("Sand with Seashells Orange"),
+	description = S("Sand with Seashells Orange"),
 	tiles = {"default_sand.png^marinara_seashells_orange.png"},
 	groups = {crumbly = 3, falling_node = 1, sand = 1},
 	drop = "marinara:seashells_orange",
@@ -355,12 +357,12 @@ minetest.register_craft({
 })
 
 minetest.register_craftitem("marinara:seashells_orange", {
-	description = ("Seashells Orange"),
+	description = S("Seashells Orange"),
 	inventory_image = "marinara_seashells_orange.png",
 })
 
 minetest.register_node("marinara:seashellmobile_orange", {
-	description = ("Seashell Mobile Orange"),
+	description = S("Seashell Mobile Orange"),
 	drawtype = "plantlike",
 	waving = 0,
 	tiles = {"marinara_seashellmobile_orange.png"},
@@ -383,7 +385,7 @@ minetest.register_node("marinara:seashellmobile_orange", {
 })
 
 minetest.register_node("marinara:sand_with_seashells_broken", {
-	description = ("Sand with Seashells Broken"),
+	description = S("Sand with Seashells Broken"),
 	tiles = {"default_sand.png^marinara_seashells_broken.png"},
 	groups = {crumbly = 3, falling_node = 1, sand = 1},
 	drop = "marinara:seashells_broken",
@@ -399,12 +401,12 @@ minetest.register_craft({
 })
 
 minetest.register_craftitem("marinara:seashells_broken", {
-	description = ("Seashells Broken"),
+	description = S("Seashells Broken"),
 	inventory_image = "marinara_seashells_broken.png",
 })
 
 minetest.register_node("marinara:seashellmobile_broken", {
-	description = ("Seashell Mobile Broken"),
+	description = S("Seashell Mobile Broken"),
 	drawtype = "plantlike",
 	waving = 0,
 	tiles = {"marinara_seashellmobile_broken.png"},
@@ -427,7 +429,7 @@ minetest.register_node("marinara:seashellmobile_broken", {
 })
 
 minetest.register_node("marinara:sand_with_seashells_pink", {
-	description = ("Sand with Seashells Pink"),
+	description = S("Sand with Seashells Pink"),
 	tiles = {"default_sand.png^marinara_seashells_pink.png"},
 	groups = {crumbly = 3, falling_node = 1, sand = 1},
 	drop = "marinara:seashells_pink",
@@ -443,12 +445,12 @@ minetest.register_craft({
 })
 
 minetest.register_craftitem("marinara:seashells_pink", {
-	description = ("Seashells Pink"),
+	description = S("Seashells Pink"),
 	inventory_image = "marinara_seashells_pink.png",
 })
 
 minetest.register_node("marinara:seashellmobile_pink", {
-	description = ("Seashell Mobile Pink"),
+	description = S("Seashell Mobile Pink"),
 	drawtype = "plantlike",
 	waving = 0,
 	tiles = {"marinara_seashellmobile_pink.png"},
@@ -471,7 +473,7 @@ minetest.register_node("marinara:seashellmobile_pink", {
 })
 
 minetest.register_node("marinara:sand_with_seashells_brown", {
-	description = ("Sand with Seashells Brown"),
+	description = S("Sand with Seashells Brown"),
 	tiles = {"default_sand.png^marinara_seashells_brown.png"},
 	groups = {crumbly = 3, falling_node = 1, sand = 1},
 	drop = "marinara:seashells_brown",
@@ -487,12 +489,12 @@ minetest.register_craft({
 })
 
 minetest.register_craftitem("marinara:seashells_brown", {
-	description = ("Seashells Brown"),
+	description = S("Seashells Brown"),
 	inventory_image = "marinara_seashells_brown.png",
 })
 
 minetest.register_node("marinara:seashellmobile_brown", {
-	description = ("Seashell Mobile Brown"),
+	description = S("Seashell Mobile Brown"),
 	drawtype = "plantlike",
 	waving = 0,
 	tiles = {"marinara_seashellmobile_brown.png"},
@@ -515,7 +517,7 @@ minetest.register_node("marinara:seashellmobile_brown", {
 })
 
 minetest.register_node("marinara:sand_with_seashells_yellow", {
-	description = ("Sand with Seashells Yellow"),
+	description = S("Sand with Seashells Yellow"),
 	tiles = {"default_sand.png^marinara_seashells_yellow.png"},
 	groups = {crumbly = 3, falling_node = 1, sand = 1},
 	drop = "marinara:seashells_yellow",
@@ -531,12 +533,12 @@ minetest.register_craft({
 })
 
 minetest.register_craftitem("marinara:seashells_yellow", {
-	description = ("Seashells Yellow"),
+	description = S("Seashells Yellow"),
 	inventory_image = "marinara_seashells_yellow.png",
 })
 
 minetest.register_node("marinara:seashellmobile_yellow", {
-	description = ("Seashell Mobile Yellow"),
+	description = S("Seashell Mobile Yellow"),
 	drawtype = "plantlike",
 	waving = 0,
 	tiles = {"marinara_seashellmobile_yellow.png"},
@@ -559,7 +561,7 @@ minetest.register_node("marinara:seashellmobile_yellow", {
 })
 
 minetest.register_node("marinara:sand_with_seashells_white", {
-	description = ("Sand with Seashells"),
+	description = S("Sand with Seashells White"),
 	tiles = {"default_sand.png^marinara_seashells_white.png"},
 	groups = {crumbly = 3, falling_node = 1, sand = 1},
 	drop = "marinara:seashells_white",
@@ -575,12 +577,12 @@ minetest.register_craft({
 })
 
 minetest.register_craftitem("marinara:seashells_white", {
-	description = ("Seashells White"),
+	description = S("Seashells White"),
 	inventory_image = "marinara_seashells_white.png",
 })
 
 minetest.register_node("marinara:seashellmobile_white", {
-	description = ("Seashell Mobile White"),
+	description = S("Seashell Mobile White"),
 	drawtype = "plantlike",
 	waving = 0,
 	tiles = {"marinara_seashellmobile_white.png"},

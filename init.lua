@@ -28,8 +28,6 @@ local path = minetest.get_modpath(minetest.get_current_modname()) .. "/"
 local S = minetest.get_translator and minetest.get_translator("marinara") or
 		dofile(path .. "intllib.lua")
 
-
-
 -- plants
 dofile(path .. "coralnodes.lua") -- 
 dofile(path .. "plants.lua") -- 

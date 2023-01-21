@@ -1,7 +1,9 @@
+local S = minetest.get_translator("marinara")
+
 -- soft corals
 
 minetest.register_node("marinara:softcoral_yellow", {
-	description = ("Yellow Soft Coral"),
+	description = S("Yellow Soft Coral"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 2.0,
@@ -33,7 +35,7 @@ special_tiles = {{name = "marinara_softcoral_yellow.png", tileable_vertical = tr
 })
 
 minetest.register_node("marinara:softcoral_white", {
-	description = ("White Soft Coral"),
+	description = S("White Soft Coral"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 2.0,
@@ -65,7 +67,7 @@ special_tiles = {{name = "marinara_softcoral_white.png", tileable_vertical = tru
 })
 
 minetest.register_node("marinara:softcoral_red", {
-	description = ("Red Soft Coral"),
+	description = S("Red Soft Coral"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 2.0,
@@ -97,7 +99,7 @@ special_tiles = {{name = "marinara_softcoral_red.png", tileable_vertical = true,
 })
 
 minetest.register_node("marinara:softcoral_green", {
-	description = ("Green Soft Coral"),
+	description = S("Green Soft Coral"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 1.0,
@@ -129,7 +131,7 @@ special_tiles = {{name = "marinara_softcoral_green.png", tileable_vertical = tru
 })
 
 minetest.register_node("marinara:softcoral", {
-	description = ("Soft Coral"),
+	description = S("Soft Coral"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 1.0,
@@ -161,7 +163,7 @@ special_tiles = {{name = "marinara_softcoral.png", tileable_vertical = true, wav
 })
 
 minetest.register_node("marinara:softcoral_brown", {
-	description = ("Brown Soft Coral"),
+	description = S("Brown Soft Coral"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 2.0,
@@ -195,7 +197,7 @@ special_tiles = {{name = "marinara_softcoral_brown.png", tileable_vertical = tru
 --- sea anemones
 
 minetest.register_node("marinara:seaanemone_tentacle", {
-	description = ("Sea Anemone"),
+	description = S("Sea Anemone"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 1.0,
@@ -227,7 +229,7 @@ special_tiles = {{name = "marinara_seaanemone_tentacle.png", tileable_vertical =
 })
 
 minetest.register_node("marinara:seaanemone_tentacle2", {
-	description = ("Sea Anemone"),
+	description = S("Sea Anemone"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 1.0,
@@ -259,7 +261,7 @@ special_tiles = {{name = "marinara_seaanemone_tentacle2.png", tileable_vertical 
 })
 
 minetest.register_node("marinara:seaanemone_tentacle3", {
-	description = ("Sea Anemone"),
+	description = S("Sea Anemone"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 1.0,
@@ -291,7 +293,7 @@ special_tiles = {{name = "marinara_seaanemone_tentacle3.png", tileable_vertical 
 })
 
 minetest.register_node("marinara:seaanemone_tentacle4", {
-	description = ("Sea Anemone"),
+	description = S("Sea Anemone"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 1.0,
@@ -325,7 +327,7 @@ special_tiles = {{name = "marinara_seaanemone_tentacle4.png", tileable_vertical 
 --- fan worms
 
 minetest.register_node("marinara:seaworm", {
-	description = ("Sea Worm"),
+	description = S("Sea Worm"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 1.0,
@@ -357,7 +359,7 @@ special_tiles = {{name = "marinara_seaworm.png", tileable_vertical = true, wavin
 })
 
 minetest.register_node("marinara:seaworm2", {
-	description = ("Sea Worm"),
+	description = S("Sea Worm"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 1.0,
@@ -389,7 +391,7 @@ special_tiles = {{name = "marinara_seaworm2.png", tileable_vertical = true, wavi
 })
 
 minetest.register_node("marinara:seaworm3", {
-	description = ("Sea Worm"),
+	description = S("Sea Worm"),
 	drawtype = "plantlike_rooted",
 	waving = 1,
         visual_scale = 2.0,
@@ -423,7 +425,7 @@ special_tiles = {{name = "marinara_seaworm3.png", tileable_vertical = true, wavi
 -- mussels and oisters
 
 minetest.register_node("marinara:mussels", {
-	description = ("Mussel Node"),
+	description = S("Mussel Node"),
 tiles = {
 		{
 			name = "marinara_mussles.png",
@@ -445,14 +447,14 @@ minetest.register_craft({
 })
 
 minetest.register_craftitem("marinara:mussels_cooked", {
-	description = ("Cooked Mussels"),
+	description = S("Cooked Mussels"),
 	inventory_image = "marinara_mussles_cooked.png",
 	on_use = minetest.item_eat(8),
 	groups = {food_meat = 1, flammable = 2}
 })
 
 minetest.register_node("marinara:oisterbank", {
-	description = ("Oister Bank"),
+	description = S("Oister Bank"),
 	drawtype = "plantlike_rooted",
 	waving = 0,
         visual_scale = 2.0,
@@ -485,7 +487,7 @@ special_tiles = {{name = "marinara_oisterbank.png", tileable_vertical = true}},
 })
 
 minetest.register_node("marinara:raw_oisters", {
-	description = ("Raw Oisters"),
+	description = S("Raw Oisters"),
 	drawtype = "plantlike",
 	tiles = {"marinara_rawoisters.png"},
 	inventory_image = "marinara_rawoisters.png",

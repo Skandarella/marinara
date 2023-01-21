@@ -526,7 +526,7 @@ minetest.register_decoration({
 
 minetest.register_decoration({
 		deco_type = "schematic",
-		place_on = {"default:sand"},
+		place_on = {"default:sand", "naturalbiomes:palmbeach_sand"},
 		sidelen = 16,
 noise_params = {
 			offset = -0.04,
@@ -536,7 +536,7 @@ noise_params = {
 			octaves = 7,
 			persist = 0.9
 		},
-    biomes = {"coniferous_forest_ocean", "deciduous_forest_ocean", "grassland_ocean", "sandstone_desert_ocean", "savanna_ocean", "rainforest_ocean", "tundra_ocean", "snowy_grassland_ocean",},
+    biomes = {"coniferous_forest_ocean", "deciduous_forest_ocean", "grassland_ocean", "sandstone_desert_ocean", "savanna_ocean", "rainforest_ocean", "tundra_ocean", "snowy_grassland_ocean", "naturalbiomes:palmbeach",},
     flags = "place_center_x,place_center_z,force_placement",
     y_max = -3,
     y_min = -8,
@@ -547,7 +547,7 @@ noise_params = {
 
 minetest.register_decoration({
 		deco_type = "schematic",
-		place_on = {"default:sand"},
+		place_on = {"default:sand", "naturalbiomes:palmbeach_sand"},
 		sidelen = 16,
 noise_params = {
 			offset = -0.04,
@@ -557,7 +557,7 @@ noise_params = {
 			octaves = 7,
 			persist = 0.9
 		},
-    biomes = {"coniferous_forest_ocean", "deciduous_forest_ocean", "grassland_ocean", "sandstone_desert_ocean", "savanna_ocean", "rainforest_ocean", "tundra_ocean", "snowy_grassland_ocean",},
+    biomes = {"coniferous_forest_ocean", "deciduous_forest_ocean", "grassland_ocean", "sandstone_desert_ocean", "savanna_ocean", "rainforest_ocean", "tundra_ocean", "snowy_grassland_ocean", "naturalbiomes:palmbeach",},
     flags = "place_center_x,place_center_z,force_placement",
     y_max = -4,
     y_min = -8,
@@ -568,7 +568,7 @@ noise_params = {
 
 minetest.register_decoration({
 		deco_type = "schematic",
-		place_on = {"default:sand"},
+		place_on = {"default:sand", "naturalbiomes:palmbeach_sand"},
 		sidelen = 16,
 noise_params = {
 			offset = -0.04,
@@ -578,7 +578,7 @@ noise_params = {
 			octaves = 7,
 			persist = 0.9
 		},
-    biomes = {"deciduous_forest_ocean", "grassland_ocean", "coniferous_forest_ocean"},
+    biomes = {"deciduous_forest_ocean", "grassland_ocean", "coniferous_forest_ocean", "naturalbiomes:palmbeach",},
     flags = "place_center_x,place_center_z,force_placement",
     y_max = -0,
     y_min = -3,
