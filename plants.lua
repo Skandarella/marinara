@@ -25,8 +25,6 @@ minetest.register_node("marinara:reed_root", {
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
-
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "default:dirt"})
 	end,
