@@ -27,7 +27,6 @@ special_tiles = {{name = "marinara_softcoral_yellow.png", tileable_vertical = tr
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:hardcoral"})
@@ -59,7 +58,6 @@ special_tiles = {{name = "marinara_softcoral_white.png", tileable_vertical = tru
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:hardcoral"})
@@ -91,7 +89,6 @@ special_tiles = {{name = "marinara_softcoral_red.png", tileable_vertical = true,
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:hardcoral"})
@@ -123,7 +120,6 @@ special_tiles = {{name = "marinara_softcoral_green.png", tileable_vertical = tru
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:hardcoral"})
@@ -155,7 +151,6 @@ special_tiles = {{name = "marinara_softcoral.png", tileable_vertical = true, wav
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:hardcoral"})
@@ -187,7 +182,6 @@ special_tiles = {{name = "marinara_softcoral_brown.png", tileable_vertical = tru
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:hardcoral"})
@@ -221,7 +215,6 @@ special_tiles = {{name = "marinara_seaanemone_tentacle.png", tileable_vertical =
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:coastrock"})
@@ -253,7 +246,6 @@ special_tiles = {{name = "marinara_seaanemone_tentacle2.png", tileable_vertical 
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:coastrock"})
@@ -285,7 +277,6 @@ special_tiles = {{name = "marinara_seaanemone_tentacle3.png", tileable_vertical 
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:coastrock"})
@@ -317,7 +308,6 @@ special_tiles = {{name = "marinara_seaanemone_tentacle4.png", tileable_vertical 
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:coastrock"})
@@ -351,7 +341,6 @@ special_tiles = {{name = "marinara_seaworm.png", tileable_vertical = true, wavin
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:seapocks"})
@@ -383,7 +372,6 @@ special_tiles = {{name = "marinara_seaworm2.png", tileable_vertical = true, wavi
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:seapocks"})
@@ -415,7 +403,6 @@ special_tiles = {{name = "marinara_seaworm3.png", tileable_vertical = true, wavi
 		dug = {name = "default_grass_footstep", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:seapocks"})
@@ -479,7 +466,6 @@ special_tiles = {{name = "marinara_oisterbank.png", tileable_vertical = true}},
 		dug = {name = "default_dig_choppy", gain = 0.25},
 	}),
 
-	on_place = coral_on_place,
 
 	after_destruct  = function(pos, oldnode)
 		minetest.set_node(pos, {name = "marinara:raw_oisters"})
